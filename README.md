@@ -33,7 +33,7 @@ This is a React Native app that you can use to add a new plant by taking a photo
 they will be shown in the Home page in a list. You can also edit/view specific plant information by clicking on it. Additionally there is templates for Profile and
 Settings pages. 
 
-# Technologies used
+## Technologies used
 
 State management/data storage: React Redux
 User interface is pretty simple but functional and uses components from React Native library
@@ -42,26 +42,26 @@ User interface is pretty simple but functional and uses components from React Na
 
 There is a bottom navigation bar that has 3 tabs Home, Profile and Settings.
 
-![plot](../PlantApp/assets/images/navigation.png)
+![plot](./assets/images/navigation.png)
 
 ## Home view
 
 Home page shows all plants in a list
 
-![plot](../PlantApp/assets/images/home.png)
+![plot](./assets/images/home.jpg)
 
 ## Scan view
 
 View for adding new plants
 
 Before taking a photo
-![plot](../PlantApp/assets/images/add_2.png)
+![plot](./assets/images/add_2.jpg)
 
 After taking a photo
-![plot](../PlantApp/assets/images/add.png)
+![plot](./assets/images/add.jpg)
 
 ## Detail view
 
 View for editing/viewing plant information
 
-![plot](../PlantApp/assets/images/detail.png)
+![plot](./assets/images/detail.jpg)
