@@ -38,6 +38,10 @@ Settings pages.
 State management/data storage: React Redux
 User interface is pretty simple but functional and uses components from React Native library
 
+UML diagram of Redux store
+
+![plot](./assets/images/uml.png)
+
 ## Navigation
 
 There is a bottom navigation bar that has 3 tabs Home, Profile and Settings.
