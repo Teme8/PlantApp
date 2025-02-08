@@ -1,16 +1,18 @@
-# Welcome to your Expo app 👋
+# PlantApp
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
 
-1. Install dependencies
+1. Download repository
+
+2. Install dependencies
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Start the app
 
    ```bash
     npx expo start
@@ -25,26 +27,41 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## Description
 
-When you're ready, run:
+This is a React Native app that you can use to add a new plant by taking a photo with the camera, providing a name, and optionally adding notes. After adding plants
+they will be shown in the Home page in a list. You can also edit/view specific plant information by clicking on it. Additionally there is templates for Profile and
+Settings pages. 
 
-```bash
-npm run reset-project
-```
+# Technologies used
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+State management/data storage: React Redux
+User interface is pretty simple but functional and uses components from React Native library
 
-## Learn more
+## Navigation
 
-To learn more about developing your project with Expo, look at the following resources:
+There is a bottom navigation bar that has 3 tabs Home, Profile and Settings.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+![plot](../PlantApp/assets/images/navigation.png)
 
-## Join the community
+## Home view
 
-Join our community of developers creating universal apps.
+Home page shows all plants in a list
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+![plot](../PlantApp/assets/images/home.png)
+
+## Scan view
+
+View for adding new plants
+
+Before taking a photo
+![plot](../PlantApp/assets/images/add_2.png)
+
+After taking a photo
+![plot](../PlantApp/assets/images/add.png)
+
+## Detail view
+
+View for editing/viewing plant information
+
+![plot](../PlantApp/assets/images/detail.png)
