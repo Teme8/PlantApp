@@ -35,7 +35,7 @@ Settings pages.
 
 ## Technologies used
 
-State management/data storage: React Redux
+State management/data storage: React Redux.<br/>
 User interface is pretty simple but functional and uses components from React Native library
 
 UML diagram of Redux store
